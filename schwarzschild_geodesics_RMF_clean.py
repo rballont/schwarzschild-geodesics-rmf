@@ -3,12 +3,11 @@
 """
 schwarzschild_geodesics_RMF_clean.py
 
-Código limpio y reproducible para el artículo preparado para Revista Mexicana de Física:
 "Clasificación analítico-computacional de geodésicas tipo tiempo y nulas en el
 espacio-tiempo de Schwarzschild".
 
 El archivo reorganiza los códigos del Anexo D de la tesis y genera las figuras
-principales del manuscrito RMF, además de tablas de validación numérica.
+principales del manuscrito para RMF, además de tablas de validación numérica.
 
 Salidas:
     output_rmf/figures/figura1.png ... figura6.png
