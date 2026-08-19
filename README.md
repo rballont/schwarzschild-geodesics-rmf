@@ -10,7 +10,7 @@ Autores:
 
 ## Relación con la tesis
 
-Los scripts de las figuras conservan la estructura de los códigos desarrollados en el **Anexo D** de la tesis de licenciatura de Ricardo Angelo Ballon Tito. Se mantuvo el estilo de programación original: scripts autocontenidos, integración RK4 escrita explícitamente y uso principal de `numpy` y `matplotlib`.
+Los códigos de las figuras parten de los programas desarrollados en el **Anexo D** de la tesis de licenciatura de Ricardo Angelo Ballon Tito. La forma de programación corresponde a la empleada en esos códigos: scripts autocontenidos, integración RK4 escrita explícitamente y dependencias limitadas principalmente a `numpy` y `matplotlib`.
 
 | Manuscrito RMF | Código | Base en la tesis |
 |---|---|---|
@@ -21,9 +21,9 @@ Los scripts de las figuras conservan la estructura de los códigos desarrollados
 | Figura 5 | `figura5_potencial_nulo.py` | Figura 17 — potencial nulo |
 | Figura 6 | `figura6_captura_critica_dispersion.py` | Figura 19 — geodésicas nulas |
 
-La **Figura 6** conserva el algoritmo RK4 y la estructura de las ecuaciones usadas en la tesis, pero sus condiciones iniciales fueron adaptadas al análisis del artículo: E=1, r0=30M y b/bcrit=0.9, 1.0, 1.2. Se mantiene la convención gráfica original: región del agujero negro en negro y trayectorias de los fotones en amarillo.
+La **Figura 6** parte del código de la Figura 19 del Anexo D. Para el manuscrito RMF se emplean las condiciones E=1, r0=30M y b/bcrit=0.9, 1.0, 1.2. La convención gráfica es la misma usada en la tesis: región del agujero negro en negro y trayectorias de los fotones en amarillo.
 
-Las Tablas II y III corresponden a comprobaciones añadidas para la versión del artículo: concordancia analítica-numérica y conservación de la restricción radial.
+Las Tablas II y III corresponden a comprobaciones numéricas incluidas en el manuscrito: concordancia analítica-numérica y conservación de la restricción radial.
 
 ## Dependencias
 
