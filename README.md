@@ -10,7 +10,7 @@ Autores:
 
 ## Relación con la tesis
 
-Los códigos de las figuras provienen de los programas desarrollados por Ricardo Angelo Ballon Tito en el **Anexo D** de su tesis de licenciatura. La estructura computacional es la misma empleada en ese trabajo: scripts autocontenidos, integración RK4 escrita explícitamente y dependencias limitadas principalmente a `numpy` y `matplotlib`.
+Los códigos de las figuras provienen de los programas desarrollados por Ricardo Angelo Ballon Tito en el **Anexo D** de su tesis de licenciatura. La estructura computacional corresponde a la empleada en ese trabajo: scripts autocontenidos, integración RK4 escrita explícitamente y dependencias centradas en `numpy` y `matplotlib`.
 
 | Manuscrito RMF | Código | Base en la tesis |
 |---|---|---|
@@ -23,7 +23,7 @@ Los códigos de las figuras provienen de los programas desarrollados por Ricardo
 
 La **Figura 6** deriva del código de la Figura 19 del Anexo D. En el manuscrito RMF se emplean las condiciones E=1, r0=30M y b/bcrit=0.9, 1.0, 1.2. La convención gráfica corresponde a la usada en la tesis: región del agujero negro en negro y trayectorias de los fotones en amarillo.
 
-Las Tablas II y III corresponden a comprobaciones numéricas incluidas en el manuscrito: concordancia analítica-numérica y conservación de la restricción radial.
+Las Tablas II y III corresponden a comprobaciones numéricas del manuscrito: concordancia analítica-numérica y conservación de la restricción radial.
 
 ## Dependencias
 
@@ -31,7 +31,7 @@ Las Tablas II y III corresponden a comprobaciones numéricas incluidas en el man
 pip install -r requirements.txt
 ```
 
-Solo se requieren:
+Se requieren:
 
 ```text
 numpy
